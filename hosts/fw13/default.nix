@@ -24,7 +24,7 @@
   };
 
   services.fprintd.enable = true;
-  security.pam.services.sudo.fprintAuth = true;
+  security.pam.services.sudo-rs.fprintAuth = true;
   security.pam.services.login.fprintAuth = false;
   security.sudo-rs.enable = true;
 
