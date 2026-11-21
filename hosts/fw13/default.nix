@@ -10,7 +10,7 @@
   boot.loader.limine.enable = true;
   boot.loader.limine.maxGenerations = 10;
   boot.loader.limine.secureBoot = {
-    enable = false;
+    enable = true;
     autoEnrollKeys.enable = true;
   };
   boot.loader.efi.canTouchEfiVariables = true;
