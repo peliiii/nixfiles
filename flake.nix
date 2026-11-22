@@ -19,6 +19,7 @@
         modules = [
           inputs.disko.nixosModules.disko
           inputs.preservation.nixosModules.default
+          ./modules
           ./hosts/fw13
         ];
       };
