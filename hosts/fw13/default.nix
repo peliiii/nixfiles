@@ -4,6 +4,7 @@
     ../common/global
     ../common/optional/desktop.nix
     ../common/optional/disko.nix
+    ../common/optional/firefox.nix
     ../common/optional/preservation.nix
   ];
 
