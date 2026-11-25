@@ -7,6 +7,7 @@
     ../common/optional/firefox.nix
     ../common/optional/preservation.nix
     ../common/optional/zed.nix
+    ../common/optional/oo7.nix
   ];
 
   boot.loader.limine.enable = true;
