@@ -8,6 +8,8 @@
     disko.url = "github:nix-community/disko";
     disko.inputs.nixpkgs.follows = "nixpkgs";
     preservation.url = "github:nix-community/preservation";
+
+    nixos-hardware.url = "github:NixOS/nixos-hardware/master";
   };
 
   outputs = inputs: {
@@ -19,6 +21,7 @@
         modules = [
           inputs.disko.nixosModules.disko
           inputs.preservation.nixosModules.default
+          inputs.nixos-hardware.nixosModules.framework-intel-core-ultra-series3
           ./modules
           ./hosts/fw13
         ];
